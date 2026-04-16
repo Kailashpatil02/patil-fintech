@@ -18,25 +18,32 @@
             text-align: center;
         }
 
-        h1 {
+        img {
+            width: 180px;
+            margin-bottom: 5px; /* logo खाली space कमी */
+        }
+
+        h3 {
+            margin-top: 0px;   /* वरचा gap काढला */
+            margin-bottom: 15px;
             color: #5a3e2b;
         }
 
         form {
             background-color: #fffaf3;
-            padding: 25px;
-            width: 260px;
+            padding: 20px;
+            width: 250px;
             margin: auto;
-            border-radius: 12px;
+            border-radius: 10px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
 
         input {
             width: 90%;
-            padding: 10px;
-            margin: 6px;
-            border-radius: 5px;
+            padding: 8px;
+            margin: 5px;
             border: 1px solid #d2b48c;
+            border-radius: 5px;
         }
 
         button {
@@ -50,12 +57,16 @@
         }
 
         button:hover {
-            background-color: #7a5236;
+            background-color: #3e2a1f;
         }
 
         a {
             color: #5a3e2b;
             text-decoration: none;
+        }
+
+        p {
+            margin-top: 10px;
         }
     </style>
 </head>
@@ -63,7 +74,10 @@
 <body>
 
 <div class="container">
-<img src="logo.png" width="250">
+
+    <!-- LOGO -->
+    <img src="logo.png">
+
     <h3>Enter your login credentials</h3>
 
     <form>
