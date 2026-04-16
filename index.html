@@ -1,33 +1,85 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-<title>Patil Fintech Login</title>
+    <title>Login Page</title>
+
+    <style>
+        body {
+            background-color: #f5f1e6;
+            font-family: Arial;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            color: #5a3e2b;
+        }
+
+        form {
+            background-color: #fffaf3;
+            padding: 25px;
+            width: 260px;
+            margin: auto;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 6px;
+            border-radius: 5px;
+            border: 1px solid #d2b48c;
+        }
+
+        button {
+            background-color: #5a3e2b;
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 95%;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #7a5236;
+        }
+
+        a {
+            color: #5a3e2b;
+            text-decoration: none;
+        }
+    </style>
 </head>
 
 <body>
 
-<center>
+<div class="container">
 
-<img src="logo.png" width="250"style="margin-bottom:10px;">
-<h3>Enter your login credentials</h3>
+    <h1>PATIL FINTECH</h1>
+    <h3>Enter your login credentials</h3>
 
-<form>
+    <form>
+        <label>Username:</label><br>
+        <input type="text" placeholder="Enter your Username"><br>
 
-<label>Username:</label><br>
-<input type="text" placeholder="Enter your Username"><br><br>
+        <label>Password:</label><br>
+        <input type="password" placeholder="Enter your Password"><br><br>
 
-<label>Password:</label><br>
-<input type="password" placeholder="Enter your Password"><br><br>
+        <button>Login</button>
+    </form>
 
-<button>Login</button>
+    <p>Not registered? <a href="register.html">Create an account</a></p>
 
-</form>
-
-<p>Not registered? <a href="register.html">Create an account</a></p>
-
-</center>
+</div>
 
 </body>
-
 </html>
